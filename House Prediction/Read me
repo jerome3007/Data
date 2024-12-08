@@ -1,1 +1,65 @@
+# House Price Prediction Using Linear Regression
+
+## Project Overview
+This project focuses on predicting house prices based on various features such as the size of the house, the number of bedrooms and bathrooms, the condition of the house, and its location. The goal is to build a **Linear Regression** model that can predict house prices with high accuracy and minimal errors.
+
+The dataset used contains 21,613 data points and several features that influence the price of houses, including **square footage, number of rooms**, and **location**. The project aims to preprocess the data, engineer relevant features, and apply machine learning techniques to develop a model that provides accurate predictions.
+
+---
+
+## **Key Features**
+- **Data Cleaning**: Handle missing values, outliers, and irrelevant columns.
+- **Feature Engineering**: Log-transform skewed target variables, standardize numerical features, and create meaningful new features.
+- **Modeling**: Apply **Linear Regression** and evaluate the model using various metrics (MAE, MSE, RMSE, R²).
+- **Outlier Detection**: Use **Interquartile Range (IQR)** to detect and remove outliers, improving model performance.
+
+---
+
+## **Technologies Used**
+- **Python** (Programming Language)
+- **pandas** (Data Manipulation)
+- **NumPy** (Numerical Operations)
+- **scikit-learn** (Modeling & Evaluation)
+- **matplotlib** and **seaborn** (Data Visualization)
+
+---
+
+## **Project Steps**
+1. **Data Loading and Preprocessing**:
+   - Load and clean the dataset by removing irrelevant features and handling missing values.
+   - Handle outliers using IQR to improve model robustness.
+   
+2. **Exploratory Data Analysis (EDA)**:
+   - Visualize and understand the relationships between different features and the target variable (`price`).
+   - Identify key features that have a strong correlation with house prices.
+   
+3. **Feature Engineering**:
+   - Apply log transformation to the target variable (`price`) to address skewness.
+   - Standardize numerical features using MinMaxScaler to ensure the model trains efficiently.
+   
+4. **Model Building and Evaluation**:
+   - Train a **Linear Regression** model on the preprocessed dataset.
+   - Evaluate model performance using metrics such as **MAE (Mean Absolute Error)**, **RMSE (Root Mean Squared Error)**, and **R² Score**.
+   
+5. **Outlier Handling**:
+   - Apply the **IQR method** to detect and remove outliers, further improving model accuracy.
+
+---
+
+## **Model Evaluation Metrics**
+- **MAE (Mean Absolute Error)**: 0.08 (On average, predictions are off by 8%).
+- **MSE (Mean Squared Error)**: 0.01 (Minimal squared error).
+- **RMSE (Root Mean Squared Error)**: 0.11 (Root of MSE, confirming minimal errors).
+- **R² Score**: 0.94 (94% of the variance in house prices is explained by the model).
+
+The model demonstrates strong performance, with both **training** and **test** sets yielding similar results, indicating good generalization.
+
+---
+
+## **Installation**
+To get started with this project, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/house-price-prediction.git
 
