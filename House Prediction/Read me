@@ -58,8 +58,18 @@ The model demonstrates strong performance, with both **training** and **test** s
 
 ## **Installation**
 To get started with this project, follow these steps:
+## Download the Project
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/house-price-prediction.git
+To download the entire project, follow these steps:
 
+1. git clone https://github.com/jerome3007/Data.git
+2. Click on the **Code** button.
+3. Select **Download ZIP**.
+Once downloaded, you can extract the contents and run the project locally.
+
+## Cloning the Repository
+
+If you have Git installed, you can clone the repository using the following command:
+
+```bash
+git clone https://github.com/jerome3007/Data.git
